@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
   title: 'QuakeSaver',
+  base: '/web-resources/documentation/',
   description: 'Smart Sensors',
 
   themeConfig: {
@@ -51,7 +52,7 @@ export default defineConfig({
     ],
     footer: {
       message:"Made by QuakeSaver with ❤️",
-      copyright: "Copyright © 2019-present <a href='https://quakesaver.net'>QuakeSaver GmbH</a>"
+      copyright: "Copyright © 2020-present <a href='https://quakesaver.net'>QuakeSaver GmbH</a>"
     }
   }
 })

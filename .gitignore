@@ -96,16 +96,9 @@ pnpm-global
 dist/
 
 # vuepress build output
-.vuepress/dist
+.vitepress/
+docs/.vitepress/dist
+
 
 # Serverless directories
 .serverless/
-
-# Temporary folders
-tmp/
-temp/
-TODOs.md
-src/api/index.json
-src/examples/data.json
-src/tutorial/data.json
-draft.md
