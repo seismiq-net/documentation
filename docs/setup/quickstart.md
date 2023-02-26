@@ -5,9 +5,26 @@
 To associate a QuakeSaver sensor to your user account it will be helpful to have your [QuakeSaver token](./configuration.md#backend-connection) already at hand.
 :::
 
-## Connecting Wi-Fi
 
-If the sensor cannot establish a connection to a known WiFi within 30 second, your **sensor will open a Wi-Fi access point named _QS-setup [DEVICE_ID]_**.
+## Connecting via Ethernet
+
+The simplest, most reliable and secure way to connect your sensor is using an Ethernet cable. Simply plug the Ethernet cable in the designated receptacle.
+
+::: tip
+Static IPv4 addresses should be configured on the infrastructure/router side. This method also ensures that no bad actor can hijack the Ethernet port.
+:::
+
+## Connecting via Wi-Fi
+
+<div class="video-block">
+    <iframe max-width=100% height=auto
+      src="https://www.youtube-nocookie.com/embed/I2q-2Oa79JY"
+      allow="encrypted-media"
+      allowfullscreen>
+    </iframe>
+</div>
+
+Make sure that no Ethernet cable is connected. Power up your device. If the sensor cannot establish a connection to a known Wi-Fi or Ethernet within 30 seconds, your **sensor will open a Wi-Fi access point named _QS-setup [DEVICE_ID]_**.
 
 Take a Wi-Fi enabled computer or smartphone and connect to that Wi-Fi access point.
 
@@ -25,7 +42,3 @@ To identify your sensor later it will be useful to **take note of the Device ID*
 :::
 
 Select a Wi-Fi from the drop-down menu, enter the password and click the _connect_ button. The Wi-Fi access point will turn off, and the sensor will attempt to establish a connection to that selected access point.
-
-## Connecting Ethernet
-
-Alternatively, you can connect your sensor using an Ethernet cable. Simply plug the Ethernet cable in the designated receptacle.

@@ -11,11 +11,13 @@ New generations of MEMS accelerometers **enable mass deployment of connected sei
 The small form factor is suited for indoor- and off-grid outdoor deployment.
 
 ::: tip Quick Facts
+
 * **Low noise 3-component 20-bit MEMS** accelerometer with variable sampling rate from 50 Hz, 100 Hz and 200 Hz and configurable range of 2 g and 4 g.
 * Quick and easy setup through smart phone.
 * **WiFi and Ethernet** connected.
 * Industrial **NAND memory** ensures high system reliability.
 * Power is supplied **5V over USB**, the consumption is \~1 Watt.
+
 :::
 
 <img src="./mems-case.jpg" alt="QuakeSaver MEMS" class="center" width="60%" />

@@ -1,7 +1,7 @@
 
 # Server Configuration
 
-Go to your QuakeSaver server url ([dev.quakesaver.net](https://dev.quakesaver.net)). Use the credentials you were provided with to login.
+Go to your QuakeSaver server url <https://network.quakesaver.net>. Use the credentials you were provided with to login.
 
 ::: warning You don't have login details?
 Send us an email to <info@quakesaver.net>.
@@ -36,6 +36,7 @@ Your device needs to be directly accessible e.g. by providing the client with a 
 For easy and highly efficient data aggregation of all your sensors' data use the FDSN Web Services.
 
 ::: details Example using ObsPy
+
 ```python
 #!/bin/env python3
 from obspy import UTCDateTime
@@ -51,6 +52,7 @@ st = client.get_waveforms("*", "*", "*", "*", tmin, tmax)
 st.write('/tmp/quakesaver-sensors.mseed')
 st.plot()
 ```
+
 :::
 
 ## Virtual Networks

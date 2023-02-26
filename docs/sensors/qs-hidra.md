@@ -19,6 +19,7 @@ The adjustable pre-amplification and sampling rate make the HiDRA sensor suitabl
 * Connected over 100 MBit Ethernet.
 * Flexible **power supply from 9 to 18 V**. Power and voltage are monitored.
 * Hygrometer, barometer (atmospheric pressure) and thermometer for continuous system and instrument monitoring.
+
 :::
 
 <img src="./hidra-case.jpg" alt="QuakeSaver HiDRA" class="center" width="60%" />
@@ -77,7 +78,6 @@ The HiDRA sensor is connected over 100 MBit fast **Ethernet**. If no connection 
 The HiDRA can be powered by a **9 - 18 V DC** power supply, the average power consumption of the instrument is **\~3.8 Watts**. This allows off-grid deployments using solar panels, batteries or fuel cells without the need for DCDC converters. The consumption can increase when [real-time signal processing](../real-time-analytics/) chains are calculated on the device, such as more demanding data products like continuous PPSDs.
 
 The power supply and the instrument's consumptions are [continuously monitored](../features/system-monitoring.md#power) by the device. This ensures that alarms are triggered timely to operators to take actions and ensure operation of the sensor.
-
 
 ## IP67 Enclosure
 

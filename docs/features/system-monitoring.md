@@ -27,7 +27,7 @@ Time synchronization is critical for seismic instruments, therefore we constantl
 * Clock drift
 * and many more...
 
-## Environment <Badge text="HiDRA only" type="tip"/>
+## Environment
 
 The sensor's environment is critical to the operational reliability of the instrument. Therefore, QuakeSaver HiDRA sensors are measuring the enclosure's environment:
 
@@ -37,7 +37,7 @@ The sensor's environment is critical to the operational reliability of the instr
 
 This enabled awareness about resulting condensation water for environmental influence.
 
-## Power Supply <Badge text="HiDRA only" type="tip"/>
+## Power Supply
 
 Remote deployments often rely on solar panels, fuel cells or batteries as power supply which can be unreliable. QuakeSaver sensors monitor the supply voltage as well as the power consumption to inform about the power supply conditions.
 

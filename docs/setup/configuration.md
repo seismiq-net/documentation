@@ -4,7 +4,7 @@
 
 The local device configuration can be accessed from a device in the **same network** (LAN) using a web browser. Open the url [http://qssensor.local](http://qssensor.local).
 
-::: warning Cannot find http://qssensor.local?
+::: warning Cannot find <http://qssensor.local>?
 Your device will be accessible using a computer at [http://qssensor.local](http://qssensor.local) only if your router allows [mDNS broadcasting](https://en.wikipedia.org/wiki/Multicast_DNS). If mDNS broadcasting is disabled, you need to log into your router or use a tool such as [nmap](https://nmap.org/) to find the local IP address of your sensor.
 :::
 
@@ -18,7 +18,7 @@ Each configurable panel has a _CONFIGURATION_ bar. You can click that bar to unf
 
 ## Location settings
 
-Open the *Location* tab.
+Open the _Location_ tab.
 
 The sensor can set a first estimated location based on nearby Wi-Fi ssids. Unfold the _CONFIGURATION_ menu and click the _UPDATE WIFI LOCATION_ button. Fine tune the location either by dragging and dropping the location pin on the map or by setting the exact location in the menu. Additional meta information such as address, floor level and building type will be helpful for later data analysis. You can also find the _STATION CODE_ in this panel which can be used to e.g. retrieve waveform data from your device.
 
@@ -47,7 +47,7 @@ a static IP address is required, go to _Connections_.
 
 ![Connections](./networking.png)
 
-Click on the connection that you would like to configure. In this example this is *Wired connection 1* which is the ethernet interface.
+Click on the connection that you would like to configure. In this example this is _Wired connection 1_ which is the ethernet interface.
 ![Static IP](./networking-eth.png)
 
 Unfold the **CONFIGURE** panel.
@@ -56,7 +56,7 @@ In the **Method** field select **MANUAL**. Enter the IP address (and gateway [op
 ::: warning Work in Progress
 Note, that there is no fallback mechanism implemented, yet. Thus, connectivity might be lost if network interfaces are misconfigured.
 
-Also, the setting update needs some time before it is reflected by the UI. Thus, double-check the updated settings in your router.  
+Also, the setting update needs some time before it is reflected by the UI. Thus, double-check the updated settings in your router.
 
 We're working on it :construction:
 :::
