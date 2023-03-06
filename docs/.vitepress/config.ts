@@ -27,6 +27,7 @@ export default defineConfig({
       },
       {
         text: 'Features',
+        link: '/features/',
         items: [
           {text: 'Timing and Synchronisation', link:'/features/timing'},
           {text: 'SeedLink Server', link:'/features/realtime-waveforms'},
@@ -53,7 +54,7 @@ export default defineConfig({
     ],
     footer: {
       message:"Made by QuakeSaver with ❤️",
-      copyright: "Copyright © 2020-present <a href='https://quakesaver.net'>QuakeSaver GmbH</a>"
+      copyright: "Copyright © 2023-present <a href='https://quakesaver.net'>QuakeSaver GmbH</a>"
     }
   }
 })
