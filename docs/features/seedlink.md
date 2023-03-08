@@ -10,7 +10,8 @@ tags:
 SeedLink is one of the most used streaming protocols for seismic time series data. SeedLink is implemented on the sensors and on the central platform, which provides data access to the whole network.
 Our implementation of SeedLink v3 is compatible with all SeedLink implementations: [slinktool](https://ds.iris.edu/ds/nodes/dmc/software/downloads/slinktool/), [ObsPy](https://docs.obspy.org/), [Pyrocko](https://pyrocko.org). Hence, different management software are supported, such as [SeisComp3](https://www.gempa.de/), [SeisGram2k](http://alomax.free.fr/seisgram/SeisGram2K.html).
 
-QuakeSaver sensors focus on **low-latency delivery** of the streamed MiniSeed packages, in optimal conditions the delay is very close to latency of the digital filter path.
+By default the sensors are configured for **low-latency delivery** of the streamed MiniSeed packages, in optimal conditions the delay is very close to latency of the digital filter path.
+For higher packet efficiency (higher latency) SeedLink **Packet Size** can be configured from the `SeedLink Server` configuration panel of each sensor.
 
 ```
 QS_EE461__EN1, 50 samples, 100 Hz, 2021,035,15:15:13.755500 (latency ~0.202 sec)

@@ -30,7 +30,8 @@ export default defineConfig({
         link: '/features/',
         items: [
           {text: 'Timing and Synchronisation', link:'/features/timing'},
-          {text: 'SeedLink Server', link:'/features/realtime-waveforms'},
+          {text: 'SeedLink', link:'/features/seedlink'},
+          {text: 'FDSN Web Services', link:'/features/fdsnws'},
           {text: 'Waveform Storage', link:'/features/waveform-storage'},
           {text: 'Sensor Monitoring', link:'/features/system-monitoring'},
           {text: 'System Integrity', link:'/features/system-integrity'},

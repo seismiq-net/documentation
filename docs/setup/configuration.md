@@ -39,24 +39,3 @@ If you want to reboot your sensor open the _INSIGHTS_ panel and hit the _REBOOT_
 Your **token** is a secret alphanumeric string, used to associate and connect your devices to your user account on the back end. To see your token log into your account at [dev.quakesaver.net](https://dev.quakesaver.net) and go to `Account`.
 
 Go to _Network Settings_ and open the _CONFIGURATION_ panel. Paste your personal [QuakeSaver TOKEN](./#quakesavertoken) into the designated field and click on _SAVE_. Your sensor will now be assigned to your personal sensor collection.
-
-## Network Interfaces
-
-Ethernet and Wi-Fi are by default configured as DHCP clients. If
-a static IP address is required, go to _Connections_.
-
-![Connections](./networking.png)
-
-Click on the connection that you would like to configure. In this example this is _Wired connection 1_ which is the ethernet interface.
-![Static IP](./networking-eth.png)
-
-Unfold the **CONFIGURE** panel.
-In the **Method** field select **MANUAL**. Enter the IP address (and gateway [optional]) and click **Save**.
-
-::: warning Work in Progress
-Note, that there is no fallback mechanism implemented, yet. Thus, connectivity might be lost if network interfaces are misconfigured.
-
-Also, the setting update needs some time before it is reflected by the UI. Thus, double-check the updated settings in your router.
-
-We're working on it :construction:
-:::
