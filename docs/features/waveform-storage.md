@@ -6,9 +6,11 @@ tags:
   - waveforms
   - miniseed
 ---
-# Waveform Storage
+# Waveform Archive
 
-The sensor holds an archive of recorded waveforms in MiniSeed format on the device. This ensures that all recorded data is securely stored on a reliable storage medium on-site.
+Additional to real-time waveform access the devices provision disk space for local waveform storage in MiniSeed format.
+Here day-files can be stored for physical retrieval from the field. 
+This ensures that all recorded data is securely stored on a reliable storage medium on-site.
 
 Depending on the sample rate the sensor and the equipped storage solution, the sensor can hold up to four years of 100 Hz data.
 
@@ -18,7 +20,7 @@ Depending on the sample rate the sensor and the equipped storage solution, the s
 | **16 GB** | 2 years | 1 year   | 6 months |
 | **32 GB** | 4 years | 2 years  | 1 year   |
 
-High entropy noise will decrease the STEIM compression efficiency and result in a larger archive's size.
+High entropy noise will decrease the `STEIM` compression efficiency and result in a larger archive's size.
 
 ## Archive Configuration
 

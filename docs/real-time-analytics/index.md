@@ -11,7 +11,7 @@ tags:
 
 Every QuakeSaver sensor is equipped with a quad-core CPU and plenty of RAM to process your seismic data in real-time in the field. This allows **continuous and real-time seismic data analysis** carried out on the _edge_. This paves the road for communication of high-level data products directly from the sensors. All of these single-station data products can be calculated continuously on the device.
 
-Particularly large network deployments can profit by carrying out signal processing on the edge, while keeping traditional real-time waveform streams like [SeedLink](../features/realtime-waveforms.md#seedlink). Further delivery of high-level data products improves **reliability of the network** and enables **fast decision making**.
+Particularly large network deployments can profit by carrying out signal processing on the edge, while keeping traditional real-time waveform streams like [SeedLink](../features/seedlink.md). Further delivery of high-level data products improves **reliability of the network** and enables **fast decision making**.
 
 The flexible architecture allows a simple extension with **custom plug-ins** tailored to meet your data processing needs. Plug-ins can be upgraded seamlessly on existing sensor deployments through [over-the-air](../features/system-integrity.md#over-the-air-ota-updates) updates.
 
