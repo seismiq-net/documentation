@@ -12,9 +12,9 @@ export default defineConfig({
       {text: 'Sensor Setup', link: '/setup/'}
     ],
     algolia: {
-      appId: '...',
-      apiKey: '...',
-      indexName: '...'
+      appId: 'ECX24PAU6I',
+      apiKey: '2696ba942d0ffe288e4a5ae219363cb8',
+      indexName: 'quakesaver'
     },
     sidebar: [
       {
