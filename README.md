@@ -2,7 +2,7 @@ QS Documentation
 ================
 
 ```shell
-yarn install
-yarn run build
-yarn preview
+npm install
+npm run docs:build
+npm run docs:preview
 ```
