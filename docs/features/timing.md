@@ -17,40 +17,9 @@ We leverage these modern implementations (i.e. chrony) together with continuous 
 An external GPS receiver can be used for time stamping. Using precise PPS interrupts this solution guarantees precise clock synchronization in
 connected and off-line environments.
 
-
-## Time Synchronisation Decision Tree
-
-To decide whether the system is synchronized through NTP or PPS (GPS Receiver) we aanalyse the time sources of the sytem
-<!-- Mermaid Flowchart
----
-title: Time Sync Decision
----
-flowchart TD
-    ValidTime[System Time Set]
-
-    BestSource[Best Chrony Source available]
-    HasPPS[PPS Source available]
-    PPSsynced[PPS is synchronized]
-    %% HasRTC[RTC available]
-
-    No(Not Synchronized)
-    Yes(Synchronized)
-
-    ValidTime -->|No| No
-    ValidTime -->|Yes| BestSource
-    BestSource -->|No| No
-    BestSource -->|Yes| HasPPS
-    HasPPS -->|Yes| PPSsynced
-    HasPPS -->|No| Yes
-    PPSsynced -->|No| No
-    PPSsynced -->|Yes| Yes
--->
-
-![Network Overview](./time-syncronisation.jpg)
-
 ## Status LEDS
 
-The instruments communicate their status through LEDs.
+The instruments communicate their status through LEDs. Particularly important is the time synchronisation and acquisition state.
 
 ### QS MEMS
 
@@ -74,3 +43,15 @@ The QuakeSaver HiDRA has three LEDs for status reporting. The startup sequence c
 | Sync/Online second flash | Time is synchronized and system is online           |
 
 The first and single flash refers to synchronizity with the acquistion flash.
+
+## Time Synchronisation Decision Tree
+
+To decide whether the system is synchronized through NTP or PPS (GPS Receiver) we analyse the time sources of the system.
+
+![Network Overview](./time-syncronisation.jpg)
+
+::: details
+For time management and synchronisation of the instrument system clock we rely on the customized chrony daemon.
+
+More information at https://chrony-project.org/.
+:::

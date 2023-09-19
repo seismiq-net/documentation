@@ -40,7 +40,7 @@ export default defineConfig({
         ]
       },
       {text: 'Real-time Analytics', link: '/real-time-analytics'},
-      {text: 'Python Client (NEW 🚀)', link: '/python-client'},
+      {text: 'Python Client 🚀', link: '/python-client'},
       {text: 'Sensor Setup', link: '/setup', items: [
         {text: 'Quick Start Guide', link: '/setup/quickstart'},
         {text: 'Sensor Configuration', link: '/setup/configuration'},
