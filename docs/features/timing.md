@@ -21,6 +21,30 @@ connected and off-line environments.
 ## Time Synchronisation Decision Tree
 
 To decide whether the system is synchronized through NTP or PPS (GPS Receiver) we aanalyse the time sources of the sytem
+<!-- Mermaid Flowchart
+---
+title: Time Sync Decision
+---
+flowchart TD
+    ValidTime[System Time Set]
+
+    BestSource[Best Chrony Source available]
+    HasPPS[PPS Source available]
+    PPSsynced[PPS is synchronized]
+    %% HasRTC[RTC available]
+
+    No(Not Synchronized)
+    Yes(Synchronized)
+
+    ValidTime -->|No| No
+    ValidTime -->|Yes| BestSource
+    BestSource -->|No| No
+    BestSource -->|Yes| HasPPS
+    HasPPS -->|Yes| PPSsynced
+    HasPPS -->|No| Yes
+    PPSsynced -->|No| No
+    PPSsynced -->|Yes| Yes
+-->
 
 ![Network Overview](./time-syncronisation.jpg)
 
