@@ -16,3 +16,37 @@ We leverage these modern implementations (i.e. chrony) together with continuous 
 
 An external GPS receiver can be used for time stamping. Using precise PPS interrupts this solution guarantees precise clock synchronization in
 connected and off-line environments.
+
+
+## Time Synchronisation Decision Tree
+
+To decide whether the system is synchronized through NTP or PPS (GPS Receiver) we aanalyse the time sources of the sytem
+
+![Network Overview](./time-syncronisation.jpg)
+
+## Status LEDS
+
+The instruments communicate their status through LEDs.
+
+### QS MEMS
+
+The QuakeSaver MEMS has a single RGB LED for status reporting. The startup sequence flashes red, green, blue and signals the startup of the acquisition software.
+
+| Signal         | Status                                                |
+|----------------|-------------------------------------------------------|
+| Green flash    | Time is synchronized.                                 |
+| Blue flash     | Time is synchronized, sensor is connected to network. |
+| Red fast flash | System Error                                          |
+
+### QS HiDRA
+
+The QuakeSaver HiDRA has three LEDs for status reporting. The startup sequence cycles the LEDs nad signals the startup of the acquisition software.
+
+| Signal                   | Status                                              |
+|--------------------------|-----------------------------------------------------|
+| Power on                 | System is powered and acquisition software running. |
+| Acquisition flash        | System is acquiring data                            |
+| Sync/Online first flash  | Time is synchronized.                               |
+| Sync/Online second flash | Time is synchronized and system is online           |
+
+The first and single flash refers to synchronizity with the acquistion flash.
