@@ -9,7 +9,7 @@ tags:
 # Waveform Archive
 
 Additional to real-time waveform access the devices provision disk space for local waveform storage in MiniSeed format.
-Here day-files can be stored for physical retrieval from the field. 
+Here day-files can be stored for physical retrieval from the field.
 This ensures that all recorded data is securely stored on a reliable storage medium on-site.
 
 Depending on the sample rate the sensor and the equipped storage solution, the sensor can hold up to four years of 100 Hz data.
@@ -25,3 +25,23 @@ High entropy noise will decrease the `STEIM` compression efficiency and result i
 ## Archive Configuration
 
 The waveform recorder can be configured at *Waveform streaming > Waveform recorder*.
+
+## Local Access and Download
+
+To download data locally, e.g. from an offline sensor system, the QuakeSaver MEMS is pre-configured to connect to a local WiFi network.
+This network can be provided by a mobile hotspot or router.
+
+::: tip WiFi Standard Configuration
+
+* SSID / WiFi Name: `qsdebug`
+* Password: `qs4debugging!!!`
+
+:::
+
+MiniSeed data can be downloaded from the sensor using `scp` or other SSH file transfer clients:
+
+```sh
+scp -r qssensor.local:/data/mseed_data .
+```
+
+The MiniSeed data will be organized in day files on the sensor.
