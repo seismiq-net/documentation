@@ -38,7 +38,7 @@ Figure: Flat frequency response of the high-resolution QuakeSaver MEMS accelerom
 
 ## Sampling Rate
 
-The sampling rate is configurable to **50 Hz, 100 Hz and 200 Hz**.
+The sampling rate is configurable to **50 Hz, 100 Hz, 200 Hz, 250 Hz and 500 Hz**.
 
 ## Power Supply and Consumption
 

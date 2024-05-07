@@ -49,13 +49,9 @@ All configurable settings (sampling rate and analog gain) are reflected instantl
 
 ## Sampling Rate
 
-The sampling rate of the system can be configured to 50 Hz, 100 Hz and 200 Hz. All channels are sampled at the same frequency. The sampling frequency can be configured adjusted on-site or remotely.
+The sampling rate of the system can be configured to **100 Hz, 200 Hz, 250 Hz, 400 Hz and 500 Hz**. All channels are sampled at the same frequency. The sampling frequency can be configured adjusted on-site or remotely.
 
 For all sampling rates different FIR filters are configurable.
-
-::: warning Future Upgrade
-:construction: Sampling rates of up to 400 Hz are in development.
-:::
 
 ## Dynamic Range
 
