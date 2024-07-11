@@ -41,7 +41,11 @@ The response function of the HiDRA is centered at 2 seconds for both the vertica
 
 <img src="./hidra_response.png" alt="HiDRA Response" class="center" />
 
-Figure: Empirical frequency response of the HiDRA short-period sensor with a natural corner frequency f~c~ of 0.5 Hz.
+Figure: Empirical frequency response of the HiDRA short-period sensor with a natural corner frequency f~c~ of 1 Hz.
+
+<img src="./filter_response.webp" alt="HiDRA Response" class="center" />
+
+Figure: Response function of the HiDRA short period instrument.
 
 ::: tip Meta-data Management
 All configurable settings (sampling rate and analog gain) are reflected instantly in the meta-data management, compliant to [StationXML](https://www.fdsn.org/xml/station/).
