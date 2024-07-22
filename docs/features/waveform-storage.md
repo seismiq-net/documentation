@@ -41,7 +41,7 @@ This network can be provided by a mobile hotspot or router.
 MiniSeed data can be downloaded from the sensor using `scp` or other SSH file transfer clients:
 
 ```sh
-scp -r qssensor.local:/data/mseed_data .
+rsync -avz qssensor.local:/data/mseed_data .
 ```
 
 The MiniSeed data will be organized in day files on the sensor.
