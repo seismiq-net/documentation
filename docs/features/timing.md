@@ -4,7 +4,7 @@
 Time synchronization of the instrument is crucial to ensure the quality of the seismic data stream. Our sensors offer a redundant
 system using a combination of low-latency NTP and external GPS time stamping.
 
-Furthermore, QuakeSaver sensors determine the intrinsic clock drift of the system in correlation with the ambient temperature to constantly
+Furthermore, SeismiQ sensors determine the intrinsic clock drift of the system in correlation with the ambient temperature to constantly
 correct skew and correct the system's clock. The system will learn the clock drift and provide more accurate timestamps the longer the system is deployed.
 
 ## Network Time Protocol (NTP)
@@ -23,7 +23,7 @@ The instruments communicate their status through LEDs. Particularly important is
 
 ### QS MEMS
 
-The QuakeSaver MEMS has a single RGB LED for status reporting. The startup sequence flashes red, green, blue and signals the startup of the acquisition software.
+The SeismiQ MEMS has a single RGB LED for status reporting. The startup sequence flashes red, green, blue and signals the startup of the acquisition software.
 
 | Signal         | Status                                                |
 |----------------|-------------------------------------------------------|
@@ -33,7 +33,7 @@ The QuakeSaver MEMS has a single RGB LED for status reporting. The startup seque
 
 ### QS HiDRA
 
-The QuakeSaver HiDRA has three LEDs for status reporting. The startup sequence cycles the LEDs nad signals the startup of the acquisition software.
+The SeismiQ HiDRA has three LEDs for status reporting. The startup sequence cycles the LEDs nad signals the startup of the acquisition software.
 
 | Signal                   | Status                                              |
 |--------------------------|-----------------------------------------------------|
@@ -53,5 +53,5 @@ To decide whether the system is synchronized through NTP or PPS (GPS Receiver) w
 ::: details
 For time management and synchronisation of the instrument system clock we rely on the customized chrony daemon.
 
-More information at https://chrony-project.org/.
+More information at <https://chrony-project.org/>.
 :::

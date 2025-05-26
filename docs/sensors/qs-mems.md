@@ -4,7 +4,7 @@ tags:
   - cheap
   - 20 bit
 ---
-# QuakeSaver MEMS
+# SeismiQ MEMS
 
 New generations of MEMS accelerometers **enable mass deployment of connected seismic sensor networks** at low cost. The excellent noise performance and frequency bandwidth of our 3-axis MEMS technology is suited for strong motion sensing and and structural health monitoring.
 
@@ -20,13 +20,13 @@ The small form factor is suited for indoor- and off-grid outdoor deployment.
 
 :::
 
-<img src="./mems-case.jpg" alt="QuakeSaver MEMS" class="center" width="60%" />
+<img src="./mems-case.jpg" alt="SeismiQ MEMS" class="center" width="60%" />
 
-Figure: QuakeSaver MEMS accelerometer for strong motion seismic monitoring in an indoor case.
+Figure: SeismiQ MEMS accelerometer for strong motion seismic monitoring in an indoor case.
 
 ## Dynamic and Range
 
-The QuakeSaver MEMS features a 3-components MEMS accelerometer with **20-bit dynamic and self-noise of 22 μg/&#8730;Hz**. The absolute range can be configured between 2 g and 4 g.
+The SeismiQ MEMS features a 3-components MEMS accelerometer with **20-bit dynamic and self-noise of 22 μg/&#8730;Hz**. The absolute range can be configured between 2 g and 4 g.
 
 ## Frequency Response
 
@@ -34,7 +34,7 @@ The MEMS instrument has a flat frequency response static offset 0 Hz (1 g) to 10
 
 <img src="./mems_response.png" alt="HiDRA Response" class="center" />
 
-Figure: Flat frequency response of the high-resolution QuakeSaver MEMS accelerometer.
+Figure: Flat frequency response of the high-resolution SeismiQ MEMS accelerometer.
 
 ## Sampling Rate
 

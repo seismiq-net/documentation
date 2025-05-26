@@ -28,7 +28,7 @@ The waveform recorder can be configured at *Waveform streaming > Waveform record
 
 ## Local Access and Download
 
-To download data locally, e.g. from an offline sensor system, the QuakeSaver MEMS is pre-configured to connect to a local WiFi network.
+To download data locally, e.g. from an offline sensor system, the SeismiQ MEMS is pre-configured to connect to a local WiFi network.
 This network can be provided by a mobile hotspot or router.
 
 ::: tip WiFi Standard Configuration

@@ -2,9 +2,8 @@
 # Quick-start Guide
 
 ::: tip
-To associate a QuakeSaver sensor to your user account it will be helpful to have your [QuakeSaver token](./configuration.md#backend-connection) already at hand.
+To associate a SeismiQ sensor to your user account it will be helpful to have your [SeismiQ token](./configuration.md#backend-connection) already at hand.
 :::
-
 
 ## Connecting via Ethernet
 

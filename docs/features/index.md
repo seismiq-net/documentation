@@ -26,7 +26,7 @@ Reliable on-site archiving of waveform data.
 
 ## Metadata Management
 
-QuakeSaver sensors keep track of all configuration changes that are relevant for later data processing in **StationXML** format.
+SeismiQ sensors keep track of all configuration changes that are relevant for later data processing in **StationXML** format.
 
 [read more...](./meta-data.md)
 
@@ -38,7 +38,7 @@ Monitor the sensor network. Our sensors transmit a multitude of system parameter
 
 ## Network Management
 
-Manage your **fleet of QuakeSaver sensors** with our modern and reliable management console. Intuitive and powerful user interfaces are accessible from any device and in any browser.
+Manage your **fleet of SeismiQ sensors** with our modern and reliable management console. Intuitive and powerful user interfaces are accessible from any device and in any browser.
 
 [read more...](./network-management.md)
 

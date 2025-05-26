@@ -62,10 +62,10 @@ params = {
 
 print(f"fetching data...This can take up to 20 seconds")
 response = requests.get(url=JWT_DATASELECT_ENDPOINT, params=params, headers={"Authorization": f"Bearer {token}"})
-with open("QuakeSaverData.mseed", "wb") as f:
+with open("SeismiQ-data.mseed", "wb") as f:
     f.write(response.content)
 
-print("stored data in QuakeSaverData.mseed")
+print("stored data in SeismiQ-data.mseed")
 ```
 
 ## Sensor Dataselect

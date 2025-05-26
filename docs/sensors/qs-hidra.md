@@ -2,9 +2,10 @@
 tags:
   - coil
   - low noise
+  - sensor
 ---
 
-# QuakeSaver HiDRA
+# SeismiQ HiDRA
 
 The 6-component High Dynamic Range (HiDRA) sensor is a **cost-effective seismometer** which combines the characteristics of highly sensitive short-period coil transducers with the reliable performance of a high-resolution strong-motion MEMS accelerometer. This enables short-period measurements together with strong-motion accelerations. Further the instrument can determine its the absolute orientation.
 The adjustable pre-amplification and sampling rate make the HiDRA sensor suitable for **monitoring local, regional and teleseismic events or continuous structural health monitoring**.
@@ -22,9 +23,9 @@ The adjustable pre-amplification and sampling rate make the HiDRA sensor suitabl
 
 :::
 
-<img src="./hidra-case.jpg" alt="QuakeSaver HiDRA" class="center" width="60%" />
+<img src="./hidra-case.jpg" alt="SeismiQ HiDRA" class="center" width="60%" />
 
-Figure: QuakeSaver HiDRA 3-component short-period seismic sensor, and 3-component strong motion accelerometer in an IP67/69 enclosure (the stock image is outdated :snail:).
+Figure: SeismiQ HiDRA 3-component short-period seismic sensor, and 3-component strong motion accelerometer in an IP67/69 enclosure (the stock image is outdated :snail:).
 
 ## Resolution and Sensitivity
 

@@ -1,15 +1,15 @@
 
 # Server Configuration
 
-Go to your QuakeSaver server url <https://network.quakesaver.net>. Use the credentials you were provided with to login.
+Go to your SeismiQ server url <https://network.quakesaver.net>. Use the credentials you were provided with to login.
 
 ::: warning You don't have login details?
-Send us an email to <info@quakesaver.net>.
+Send us an email to <info@seismiq.net>.
 :::
 
 ## Overview
 
-You will find a list and map of all your devices on your start page and under _All Sensors_. Either click on the triangles representing sensors or on _Details_ in the sensor table to find out more about each of your QuakeSavers.
+You will find a list and map of all your devices on your start page and under _All Sensors_. Either click on the triangles representing sensors or on _Details_ in the sensor table to find out more about each of your SeismiQ sensors.
 
 ## Sensor Details
 
@@ -21,7 +21,7 @@ The horizontally aligned tabs _Status_, _Location_, _Events_, etc. show identica
 
 ### SeedLink
 
-Each QuakeSaver sensor comes with a [SeedLink server](http://ds.iris.edu/ds/nodes/dmc/services/seedlink/) on board. You can stream your sensors' waveform data using this protocol in near real-time.
+Each SeismiQ sensor comes with a [SeedLink server](http://ds.iris.edu/ds/nodes/dmc/services/seedlink/) on board. You can stream your sensors' waveform data using this protocol in near real-time.
 
 You need to enable the sensor's SeedLink server. Go to the _Waveform Streaming_ tab of your sensor's details view and enable the SeedLink server from the _CONFIGURATION_ menu.
 

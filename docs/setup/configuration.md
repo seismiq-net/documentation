@@ -36,6 +36,6 @@ If you want to reboot your sensor open the _INSIGHTS_ panel and hit the _REBOOT_
 
 ## Backend Connection
 
-Your **token** is a secret alphanumeric string, used to associate and connect your devices to your user account on the back end. To see your token log into your account at [dev.quakesaver.net](https://dev.quakesaver.net) and go to `Account`.
+Your **token** is a secret alphanumeric string, used to associate and connect your devices to your user account on the back end. To see your token log into your account at [dev.quakesaver.net](https://network.quakesaver.net) and go to `Account`.
 
-Go to _Network Settings_ and open the _CONFIGURATION_ panel. Paste your personal [QuakeSaver TOKEN](./#quakesavertoken) into the designated field and click on _SAVE_. Your sensor will now be assigned to your personal sensor collection.
+Go to _Network Settings_ and open the _CONFIGURATION_ panel. Paste your personal [SeismiQ TOKEN](./#quakesavertoken) into the designated field and click on _SAVE_. Your sensor will now be assigned to your personal sensor collection.

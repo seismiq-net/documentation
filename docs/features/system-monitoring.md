@@ -14,13 +14,14 @@ Find our Grafana dashboard template [here](https://grafana.com/grafana/dashboard
 
 The basic system metrics reflecting the software state of health include:
 
- * CPU
- * Memory usage
- * Network traffic
- * File system metrics
- * and many more...
+* CPU
+* Memory usage
+* Network traffic
+* File system metrics
+* and many more...
 
 ## Timing Quality
+
 Time synchronization is critical for seismic instruments, therefore we constantly monitor the quality of the time synchronization. These parameters include:
 
 * Time offset & RMS
@@ -29,7 +30,7 @@ Time synchronization is critical for seismic instruments, therefore we constantl
 
 ## Environment
 
-The sensor's environment is critical to the operational reliability of the instrument. Therefore, QuakeSaver HiDRA sensors are measuring the enclosure's environment:
+The sensor's environment is critical to the operational reliability of the instrument. Therefore, SeismiQ HiDRA sensors are measuring the enclosure's environment:
 
 * barometric pressure sensor
 * relative humidity
@@ -39,11 +40,10 @@ This enabled awareness about resulting condensation water for environmental infl
 
 ## Power Supply
 
-Remote deployments often rely on solar panels, fuel cells or batteries as power supply which can be unreliable. QuakeSaver sensors monitor the supply voltage as well as the power consumption to inform about the power supply conditions.
+Remote deployments often rely on solar panels, fuel cells or batteries as power supply which can be unreliable. SeismiQ sensors monitor the supply voltage as well as the power consumption to inform about the power supply conditions.
 
 * Supply voltage
 * Power consumption
-
 
 ## Seismic metrics
 

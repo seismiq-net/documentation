@@ -15,7 +15,7 @@ Probabilistic power spectral densities (PPSD) and power spectral density probabi
 
 H/V ratios reflect site conditions, structural properties and near-surface seismic properties. Changes in the site conditions due to environmental changes can be temporal or permanent. They may indicate failure of a building or a slope, where they can precede landslides. thus real-time monitoring of these changes is paramount for fast response.
 
-QuakeSaver sensors will be equipped with real-time and continuous calculation of H/V ratios to monitor and report these changes.
+SeismiQ sensors will be equipped with real-time and continuous calculation of H/V ratios to monitor and report these changes.
 
 ## Continuous Station Autocorrelation <Badge text="beta" type="error"/>
 

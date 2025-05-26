@@ -31,7 +31,7 @@ slinktool -L  seedlink.network.quakesaver.net:18000
 
 ## Sensor SeedLink Server
 
-QuakeSaver sensors provide a built-in SeedLink server for single- and multi-station mode. To start the server, open the sensor's web interface and navigate to *Waveform access > SeedLink Server* and start the server.
+SeismiQ sensors provide a built-in SeedLink server for single- and multi-station mode. To start the server, open the sensor's web interface and navigate to *Waveform access > SeedLink Server* and start the server.
 ![SeedLink Server Sensor](./seedlink-sensor.png)
 
 Use the `slinktool` to check connection to the sensor's SeedLink server:

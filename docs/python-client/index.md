@@ -1,14 +1,14 @@
 Python Client
 =============
 
-Our open-source [quakesaver-client](https://github.com/QuakeSaver/quakesaver-client) allows easy access to **all data** of your entire sensor fleet.
+Our open-source [quakesaver-client](https://github.com/seismiq-net/quakesaver-client) allows easy access to **all data** of your entire sensor fleet.
 You can query what sensors you have in your database and download the **raw waveform** data as well as the **metadata** straight from the sensor.
 
 The higher level dataproducts such as *Spectral Intensity*, *JMA Intensity*, *Peak Acceleration/Velocity* data and many more can be access with only few lines of python code.
 Queries for these also allow applying rolling `mean`, `max`, `min` aggregators with a configurable window length.
 
 ::: tip
-Checkout the **[documentation](https://quakesaver.github.io/quakesaver-client/index.html)** for further info.
+Checkout the **[documentation](https://seismiq-net.github.io/quakesaver-client/index.html)** for further info.
 :::
 
 ## Example
@@ -16,7 +16,7 @@ Checkout the **[documentation](https://quakesaver.github.io/quakesaver-client/in
 This example downloads 5 hours of *Peak Horizontal Acceleration* data with a rolling *max* of 30 minutes.
 
 ::: tip
-This also works with the **demo user** login. If you don't have one, let us know. 
+This also works with the **demo user** login. If you don't have one, let us know.
 :::
 
 ```python

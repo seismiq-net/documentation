@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: QuakeSaver Sensors
+  name: SeismiQ Sensors
   text: Next-generation connected seismsic sensors
   tagline: Setup, configure and manage your smart seismic sensors
   actions:
@@ -11,7 +11,7 @@ hero:
       link: ./sensors/
     - theme: alt
       text: Homepage
-      link: https://quakesaver.net
+      link: https://seismiq.net
 
 features:
 - title: Sensor Setup

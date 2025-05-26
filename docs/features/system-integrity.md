@@ -2,11 +2,11 @@
 
 We believe that there should be no need for regular maintenance visits at the instrument after deployment.
 
-All QuakeSaver sensors run a tailored embedded Linux which yields a numerous advantages over other distributions such as Debian, Raspbian or Armbian.
+All SeismiQ sensors run a tailored embedded Linux which yields a numerous advantages over other distributions such as Debian, Raspbian or Armbian.
 
 ## Security is Paramount
 
-The connected nature of QuakeSaver sensors demands uncompromising security measures. For our embedded Linux we carefully selected all components that are required for long term stability and stripped everything that is not absolutely essential and hereby reduce the potential vulnerabilities of the entire system.
+The connected nature of SeismiQ sensors demands uncompromising security measures. For our embedded Linux we carefully selected all components that are required for long term stability and stripped everything that is not absolutely essential and hereby reduce the potential vulnerabilities of the entire system.
 
 ## Over-the-air (OTA) Updates
 
