@@ -1,4 +1,4 @@
-QS Documentation
+seismiq Sensor Documentation
 ================
 
 ```shell
