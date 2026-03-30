@@ -1,9 +1,15 @@
 # Network Management
 
-Manage your **fleet of SeismiQ sensors** with our modern and reliable backbone. Intuitive and powerful user interface are accessible from any device and in any browser. Group your sensors into virtual networks and **configure the sensors bulk or individually**.
+Manage your **fleet of SeismiQ sensors** from a single, browser-based interface — accessible from any device, anywhere. Group sensors into virtual networks and apply configuration changes **in bulk or individually**, without on-site visits.
 
-The **digital twin** of each sensor provides a detailed reflection of all parameters and continuous data analysis such as network aggregated PGA. Data products are graphically presented as maps, list and accessible as descriptive [GeoJSON](https://geojson.org/) for seamless integration in any GIS software. This enables a continuous overview and health monitoring of your entire network within a glimpse.
+The **digital twin** of each sensor maintains a live reflection of all operational parameters and continuously computed data products such as network-aggregated PGA. Data is visualized as interactive maps and lists, and exported as [GeoJSON](https://geojson.org/) for direct integration into any GIS platform or operational dashboard.
+
+This gives operators a continuous, real-time overview of network health, data quality, and ground motion activity — critical for geothermal operations, infrastructure monitoring programs, and national seismic networks managing hundreds of instruments.
 
 ![Network Overview](./network-overview.png)
 
-Figure: SeismiQ network in Tokyo Metropolitan Area. A subset from a fleet of low-res MEMS sensors.
+Figure: SeismiQ sensor network in the Tokyo Metropolitan Area — a subset of a large-N MEMS deployment.
+
+::: tip Contact Sales
+Managing a large network or evaluating SeismiQ for an infrastructure or geothermal project? [Get in touch](https://seismiq.net/contact) to discuss your use case.
+:::

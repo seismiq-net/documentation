@@ -3,21 +3,21 @@ layout: home
 
 hero:
   name: SeismiQ Sensors
-  text: Next-generation connected seismsic sensors
-  tagline: Setup, configure and manage your smart seismic sensors
+  text: The IoT-first seismic sensor platform with AI on the edge
+  tagline: Deploy, configure, and manage smart seismic sensor networks — from a single instrument to a large-N fleet. Real-time edge analytics included.
   actions:
     - theme: brand
-      text: Documentation
+      text: Explore the Sensors
       link: ./sensors/
     - theme: alt
-      text: Homepage
-      link: https://seismiq.net
+      text: Contact Sales
+      link: https://seismiq.net/contact
 
 features:
-- title: Sensor Setup
-  details: Bring your device up to speed in one minute.
-- title: Device Configuration
-  details: Locate your device, tune your plug-ins and visualize data and metrics.
-- title: Network Management
-  details: Take control over your large-N networks. Detailed insights. Manage your waveforms and meta-data.
+- title: Deploy in Minutes
+  details: Work-out-of-the-box design gets your sensor online and streaming in under a minute — no specialist configuration required.
+- title: Edge AI & Real-time Analytics
+  details: Every sensor runs on-device signal processing. PGA, PGV, Spectral Intensity, PPSD, and AI-powered phase identification — computed at the edge, not in the cloud.
+- title: Fleet Management at Scale
+  details: Manage hundreds of sensors from a single web interface. Digital twins, bulk configuration, real-time health monitoring, and GeoJSON export for GIS integration.
 ---

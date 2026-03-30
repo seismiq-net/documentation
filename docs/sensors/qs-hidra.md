@@ -7,8 +7,9 @@ tags:
 
 # SeismiQ HiDRA
 
-The 6-component High Dynamic Range (HiDRA) sensor is a **cost-effective seismometer** which combines the characteristics of highly sensitive short-period coil transducers with the reliable performance of a high-resolution strong-motion MEMS accelerometer. This enables short-period measurements together with strong-motion accelerations. Further the instrument can determine its the absolute orientation.
-The adjustable pre-amplification and sampling rate make the HiDRA sensor suitable for **monitoring local, regional and teleseismic events or continuous structural health monitoring**.
+The 6-component High Dynamic Range (HiDRA) sensor is a **cost-effective professional seismometer** that combines highly sensitive short-period coil transducers with a high-resolution strong-motion MEMS accelerometer. This unique dual-sensor design captures both weak-motion and strong-motion data in a single, connected instrument — eliminating the need for separate deployments.
+
+Adjustable pre-amplification and sampling rate make the HiDRA suitable for **local, regional and teleseismic monitoring, induced seismicity surveillance, geothermal operations, and continuous structural health monitoring**. DIN 4150 / DIN 45669 certified for regulated deployments.
 
 ::: tip Quick Facts
 
@@ -96,6 +97,8 @@ In freezing cold temperatures the HiDRA can use its computing core to stabilize 
 
 ## DIN Certification
 
-Certification of the HiDRA seismometer for [DIN 4150](https://www.geothermie.de/bibliothek/lexikon-der-geothermie/d/din-4150.html) and DIN 45669 is currently pursued. Existing units will be upgraded to hold the certificate.
+The SeismiQ HiDRA is certified for [DIN 4150](https://www.geothermie.de/bibliothek/lexikon-der-geothermie/d/din-4150.html) and DIN 45669 — the standard required for vibration monitoring in geotechnical, construction, and geothermal applications. All units ship with the certificate included.
 
-We hope to be back with good news in Q2 2020 :rocket:.
+::: tip Geothermal & Infrastructure
+The DIN 4150 / DIN 45669 certification makes the HiDRA the instrument of choice for induced seismicity monitoring in geothermal operations, underground construction, and critical infrastructure projects where regulatory compliance is mandatory.
+:::

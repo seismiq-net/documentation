@@ -1,14 +1,15 @@
 ---
 tags:
   - mems
-  - cheap
+  - cost-effective
+  - large-N
   - 20 bit
 ---
 # SeismiQ MEMS
 
-New generations of MEMS accelerometers **enable mass deployment of connected seismic sensor networks** at low cost. The excellent noise performance and frequency bandwidth of our 3-axis MEMS technology is suited for strong motion sensing and and structural health monitoring.
+New generations of MEMS accelerometers make **large-scale connected seismic sensor networks economically viable**. The excellent noise performance and frequency bandwidth of our 3-axis MEMS technology is suited for strong motion sensing, urban seismic monitoring, and structural health monitoring.
 
-The small form factor is suited for indoor- and off-grid outdoor deployment.
+The compact form factor and USB power supply enable rapid indoor deployment and flexible off-grid field installations — ideal for dense network campaigns, aftershock monitoring, and permanent urban infrastructure arrays.
 
 ::: tip Quick Facts
 

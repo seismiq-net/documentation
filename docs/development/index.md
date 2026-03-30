@@ -11,21 +11,23 @@ tags:
 
 # Development
 
-SeismiQ GmbH is a spin-off from the [German Research Centre for Geoscience GFZ Potsdam](https://gfz.de). We develop our sensors in tight cooperation with research scientists at the GFZ and other European and Asian research institutions. We are strong evangelists of [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software), that's why we want open software for a thriving ecosystem around SeismiQ sensors.
+SeismiQ GmbH is a spin-off from the [German Research Centre for Geoscience GFZ Potsdam](https://gfz.de) — one of the world's leading geoscience institutions. Our sensors are developed in close collaboration with research scientists at the GFZ and partner institutions across Europe and Asia. This scientific foundation ensures that every SeismiQ instrument meets the data quality standards demanded by professional seismology.
+
+We are committed to [open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) to foster a thriving ecosystem around SeismiQ sensors.
 
 ## Software
 
-SeismiQ software is open-sources and distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). Open `git` repositories will be available soon! :cloud:
+SeismiQ sensor software is open-source and distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-## Continuous Integration and Delivery Testing
+## Continuous Integration and Delivery
 
-Every line of code that is added to the sensor software stack triggers a rebuild of the embedded Linux to include the latest software updates. The newly built image is then automatically deployed to samples of each of our sensor types and generations. When a sensor receives its image it will test itself against the new software and report back to out integration pipelines.
+Every code change to the sensor software stack triggers an automated rebuild of the embedded Linux image. The new image is deployed to physical samples of each sensor type and generation — the sensor runs its full self-test suite and reports results back to our CI pipeline before any release is approved.
 
-This extensive and complex deployment validation allows delivering continuously validated software.
+This hardware-in-the-loop validation guarantees that software updates are tested on real instruments before they reach your deployment, delivering continuously validated, production-ready firmware.
 
 ## Sensor Insights
 
-All devices broadcast data and status locally on a [ZeroMQ](https://zeromq.org/) TCP port. Our open-source testing and evaluation software will be available here.
+All devices broadcast data and status locally over a [ZeroMQ](https://zeromq.org/) TCP port, enabling seamless integration with custom monitoring tools and third-party workflows. An open-source evaluation GUI is available for local sensor inspection and testing.
 
 <img src="./qs-evaluation-gui.png" alt="SeismiQ Evaluation GUI" />
 
