@@ -41,6 +41,7 @@ export default defineConfig({
       },
       { text: 'Real-time Analytics', link: '/real-time-analytics' },
       { text: 'Python Client 🚀', link: '/python-client' },
+      { text: 'Command Line Interface ⌨️', link: '/cli' },
       {
         text: 'Sensor Setup', link: '/setup', items: [
           { text: 'Quick Start Guide', link: '/setup/quickstart' },
