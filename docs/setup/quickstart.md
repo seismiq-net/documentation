@@ -2,7 +2,7 @@
 # Quick-start Guide
 
 ::: tip
-To associate a SeismiQ sensor to your user account it will be helpful to have your [SeismiQ token](./configuration.md#backend-connection) already at hand.
+To associate a SeismiQ sensor with your user account, have the email address and password you use at [network.quakesaver.net](https://network.quakesaver.net) ready. See [Backend Connection](./configuration.md#backend-connection).
 :::
 
 ## Connecting via Ethernet
