@@ -15,7 +15,7 @@ The compact form factor and USB power supply enable rapid indoor deployment and 
 
 * **Low noise 3-component 20-bit MEMS** accelerometer with variable sampling rate from 50 Hz, 100 Hz and 200 Hz and configurable range of 2 g and 4 g.
 * Quick and easy setup through smart phone.
-* **WiFi and Ethernet** connected.
+* **Ethernet** connected.
 * Industrial **NAND memory** ensures high system reliability.
 * Power is supplied **5V over USB**, the consumption is \~1 Watt.
 

@@ -28,15 +28,7 @@ The waveform recorder can be configured at *Waveform streaming > Waveform record
 
 ## Local Access and Download
 
-To download data locally, e.g. from an offline sensor system, the SeismiQ MEMS is pre-configured to connect to a local WiFi network.
-This network can be provided by a mobile hotspot or router.
-
-::: tip WiFi Standard Configuration
-
-* SSID / WiFi Name: `qsdebug`
-* Password: `qs4debugging!!!`
-
-:::
+To download data locally, e.g. from an offline sensor system, connect to the sensor over the local network.
 
 MiniSeed data can be downloaded from the sensor using `scp` or other SSH file transfer clients:
 

@@ -20,7 +20,7 @@ Each configurable panel has a _CONFIGURATION_ bar. You can click that bar to unf
 
 Open the _Location_ tab.
 
-The sensor can set a first estimated location based on nearby Wi-Fi ssids. Unfold the _CONFIGURATION_ menu and click the _UPDATE WIFI LOCATION_ button. Fine tune the location either by dragging and dropping the location pin on the map or by setting the exact location in the menu. Additional meta information such as address, floor level and building type will be helpful for later data analysis. You can also find the _STATION CODE_ in this panel which can be used to e.g. retrieve waveform data from your device.
+Unfold the _CONFIGURATION_ menu and set the location either by dragging and dropping the location pin on the map or by setting the exact location in the menu. Additional meta information such as address, floor level and building type will be helpful for later data analysis. You can also find the _STATION CODE_ in this panel which can be used to e.g. retrieve waveform data from your device.
 
 ![Device status](./location.png)
 
