@@ -11,10 +11,13 @@ export default defineConfig({
     nav: [
       { text: 'Sensor Setup', link: '/setup/' }
     ],
-    algolia: {
-      appId: 'NT504UZEG7',
-      apiKey: '148e0526162e801305fc7196d8a569a9',
-      indexName: 'docs_seismiq_net_nt504uzeg7_pages'
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'NT504UZEG7',
+        apiKey: '148e0526162e801305fc7196d8a569a9',
+        indexName: 'docs_seismiq_net_nt504uzeg7_pages'
+      }
     },
     sidebar: [
       {
@@ -40,17 +43,22 @@ export default defineConfig({
           { text: 'Meta Data', link: '/features/meta-data' },
         ]
       },
-      { text: 'Real-time Analytics', link: '/real-time-analytics' },
-      { text: 'Python Client 🚀', link: '/python-client' },
-      { text: 'Command Line Interface ⌨️', link: '/cli' },
       {
-        text: 'Sensor Setup', link: '/setup', items: [
+        text: 'Real-time Analytics', link: '/real-time-analytics/', items: [
+          { text: 'Outlook', link: '/real-time-analytics/outlook' },
+        ]
+      },
+      { text: 'Python Client 🚀', link: '/python-client/' },
+      { text: 'Command Line Interface ⌨️', link: '/cli/' },
+      {
+        text: 'Sensor Setup', link: '/setup/', items: [
           { text: 'Quick Start Guide', link: '/setup/quickstart' },
           { text: 'Sensor Configuration', link: '/setup/configuration' },
         ]
       },
-      { text: 'Sensor provisioning', link: '/provisioning' },
-      { text: 'Development', link: '/development' }
+      { text: 'Server Configuration', link: '/configuration-server/' },
+      { text: 'Sensor provisioning', link: '/provisioning/' },
+      { text: 'Development', link: '/development/' }
 
     ],
     socialLinks: [

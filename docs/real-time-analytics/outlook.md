@@ -1,3 +1,5 @@
+# Outlook
+
 ## Continuous H/V
 
 H/V spectral ratios reflect site conditions, structural properties and near-surface seismic characteristics. Changes due to environmental loading, seasonal effects, or structural damage can be temporal or permanent — and may precede landslides or building failures.
