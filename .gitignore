@@ -95,9 +95,9 @@ pnpm-global
 # rollup.js default build output
 dist/
 
-# vuepress build output
-.vitepress/
+# vitepress build output
 docs/.vitepress/dist
+docs/.vitepress/cache
 
 
 # Serverless directories
