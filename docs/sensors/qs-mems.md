@@ -13,7 +13,7 @@ The compact form factor and USB power supply enable rapid indoor deployment and 
 
 ::: tip Quick Facts
 
-* **Low noise 3-component 20-bit MEMS** accelerometer with variable sampling rate from 50 Hz, 100 Hz and 200 Hz and configurable range of 2 g and 4 g.
+* **Low noise 3-component 20-bit MEMS** accelerometer with variable sampling rate from  40 Hz, 50 Hz, 100 Hz, 200 Hz, 250 Hz and 500 Hz and configurable range of 2 g, 4 g and 8 g.
 * Quick and easy setup through smart phone.
 * **Ethernet** connected.
 * Industrial **NAND memory** ensures high system reliability.
@@ -27,7 +27,7 @@ Figure: SeismiQ MEMS accelerometer for strong motion seismic monitoring in an in
 
 ## Dynamic and Range
 
-The SeismiQ MEMS features a 3-components MEMS accelerometer with **20-bit dynamic and self-noise of 22 μg/&#8730;Hz**. The absolute range can be configured between 2 g and 4 g.
+The SeismiQ MEMS features a 3-components MEMS accelerometer with **20-bit dynamic and self-noise of 22 μg/&#8730;Hz**. The absolute range can be configured between 2 g, 4 g and 8 g.
 
 ## Frequency Response
 
@@ -39,7 +39,7 @@ Figure: Flat frequency response of the high-resolution SeismiQ MEMS acceleromete
 
 ## Sampling Rate
 
-The sampling rate is configurable to **50 Hz, 100 Hz, 200 Hz, 250 Hz and 500 Hz**.
+The sampling rate is configurable to **40 Hz, 50 Hz, 100 Hz, 200 Hz, 250 Hz and 500 Hz**.
 
 ## Power Supply and Consumption
 
