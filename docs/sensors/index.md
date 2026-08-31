@@ -1,6 +1,6 @@
 # Sensors
 
-SeismiQ offers two complementary sensor platforms to match any deployment scenario — from high-precision research installations to large-N urban monitoring networks.
+SeismiQ offers three complementary sensor platforms to match deployment scenarios ranging from high-precision research installations to large-N urban and structural monitoring networks.
 
 ## SeismiQ HiDRA
 
@@ -25,3 +25,15 @@ A cost-effective 3-axis MEMS accelerometer designed for **mass deployment of con
 <img src="./mems-case.jpg" alt="SeismiQ MEMS" class="center" width="40%" />
 
 Figure: SeismiQ MEMS accelerometer for strong-motion seismic monitoring.
+
+## SeismiQ MEMS-SH
+
+The MEMS-SH combines the 3-axis, 20-bit MEMS sensing platform with an **IP68 structural enclosure** and PoE or direct DC power. It is designed for permanent vibration and strong-motion monitoring where sensors are mounted on structures or installed in exposed positions.
+
+**Best for:** Structural health monitoring, continuous vibration monitoring, strong-motion recording, and exposed PoE-connected installations.
+
+[→ See full specifications](qs-mems-sh.md)
+
+<img src="./mems-sh.jpg" alt="SeismiQ MEMS-SH" class="center" width="40%" />
+
+Figure: SeismiQ MEMS-SH accelerometer for structural vibration and strong-motion monitoring.
