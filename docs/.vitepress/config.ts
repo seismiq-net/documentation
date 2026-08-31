@@ -22,6 +22,7 @@ export default defineConfig({
         link: '/sensors/',
         items: [
           { text: 'SeismiQ MEMS', link: '/sensors/qs-mems' },
+          { text: 'SeismiQ MEMS-SH', link: '/sensors/qs-mems-sh' },
           { text: 'SeismiQ HiDRA', link: '/sensors/qs-hidra' }
         ]
       },
